@@ -13,8 +13,9 @@ Each notebook in the project is self-contained with all packages pip installed i
 
 ### Secrets
 
-The secrets necessary to run the notebooks are specified in the second cell of each notebook, if any.
-IYou need embed secrets in Colab secrets if you run a notebook on Colab.
+The secrets necessary to run the notebooks are specified in the third cell of each notebook, if any.
+* You need to embed secrets in Colab secrets if you run a notebook on Colab.
+* If running the notebook outside Colab the required secrets are expected to be provided as enviromental variables. 
 
 ### Structure
 ```
